@@ -1,0 +1,9 @@
+ALCHEMY_API_KEY = "ALCHEMY_API_KEY"
+PRIVATE_KEY="0x0000000000000"
+OWNER_NAME = "John"
+OWNER_EMAIL = "example@gmail.com"
+
+HOST="smtp.example.com"
+PORT=465
+SENDER_EMAIL_ID="sender@shorts-ai.in"
+SENDER_EMAIL_AUTH="example@123"

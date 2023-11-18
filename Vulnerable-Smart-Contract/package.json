@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.1"
+  },
+  "scripts": {
+    "contract-deploy": "npx hardhat run --network goerli scripts/deploy.js",
+    "contract-test": "node scripts/DepositAndvulnerableFunctionCaller.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "fs": "^0.0.1-security"
+  }
+}
