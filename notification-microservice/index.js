@@ -63,12 +63,6 @@ async function main() {
 main();
 
 app.get("/", (req, res) => {
-  sendEmail(
-    process.env.OWNER_NAME,
-    "vulnerableFunction",
-    "0x00000000",
-    ethers.parseEther("0.1111111111")
-  );
   res.send("Server is Running!");
 });
 
